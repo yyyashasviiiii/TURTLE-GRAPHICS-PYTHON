@@ -1,0 +1,31 @@
+import turtle
+titan = turtle.Turtle()
+
+titan.speed(10)
+titan.hideturtle()
+titan.penup()
+titan.back(300)
+titan.pendown()
+titan.isvisible()
+titan.getscreen().bgcolor("#121212")
+
+t.shape("turtle")
+
+t.pensize(6)
+t.pencolor("crimson")
+t.speed(0)
+
+for i in range(12):
+    t.begin_fill()
+    t.right(90)
+    t.forward(50)
+    t.left(120)
+    t.forward(50)
+    t.left(120)
+    t.forward(50)
+    t.end_fill()
+    t.forward(50)
+
+t.hideturtle()
+
+turtle.done()
